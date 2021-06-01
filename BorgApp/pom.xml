@@ -14,9 +14,6 @@
 	<name>BorgApp</name>
 	<description>BorgApp Backend Demo</description>
 	
-	<!-- define the packaging type -->
-	<packaging>jar</packaging>
-	
 	<properties>
 		<java.version>1.8</java.version>
 		<org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
