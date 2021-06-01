@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Suggested to you</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../assets/css/home.css" rel="stylesheet" >
+    <link href="../assets/css/flickity-docs.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+     <script src="../assets/js/home.js" charset="utf-8" defer></script>
+     <script src="../assets/js/flickity-docs.min.js" charset="utf-8" defer></script>
+     <script src="../assets/js/flickity-imagesloaded.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+    
+ 
+    <div class="main-img">
+        <img src="../images/civita_di_bagnoregio.jpg" alt="" class="image">
+        <div class="overlay">
+            <input type="text" class="input" value="Search...">
+            <input type="submit" class="input-submit" value="Search">
+            <div class="filters">
+                <span>search by filters</span>
+            </div>
+        </div>
+    </div>
+    
+        <div class="container">
+        <!-- Title -->
+        <div class="title">
+            Suggested for you
+        </div>
+        
+
+        <div class="carousel" data-flickity='{ "cellAlign": "left", "bgLazyLoad": 3, "contain": true, "prevNextButtons": false, "pageDots": false}'>
+            <div class="carousel-cell" >
+                <div class="overlay-bg" id="suggested1">
+                    <div class="overlay-card" >
+                        <div id="suggested1_name">Staiti</div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell" >
+                <div class="overlay-bg" id="suggested2">
+                    <div class="overlay-card" >
+                        <div id="suggested2_name">Staiti</div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell" >
+                <div class="overlay-bg" id="suggested3">
+                    <div class="overlay-card" >
+                        <div id="suggested3_name">Staiti</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Bottom bar-->
+    <nav class="navbar fixed-bottom navbar-light bg-light bottom-bar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/icons/home.svg" alt="" height="20px" fill="#686868">
+            </a>
+            <a class="navbar-brand" href="#">
+                <img src="../images/icons/village.svg" alt="" height="30px" fill="#686868">
+            </a>
+            <a class="navbar-brand" href="#">
+                <img src="../images/icons/user.svg" alt="" height="20px" fill="#686868">
+            </a>
+        </div>
+        
+      </nav>
+</body>
+
+</html>
